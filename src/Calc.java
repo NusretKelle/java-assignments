@@ -41,7 +41,6 @@ public class Calc {
         }
         throw new IllegalArgumentException("Unknown operator: " + op);
     }
-
     private static boolean isInteger(String s) {
         try { Integer.parseInt(s); return true; }
         catch (NumberFormatException e) { return false; }
