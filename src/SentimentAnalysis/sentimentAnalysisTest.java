@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class sentimentAnalysisTest {
     public static void main(String[] args) {
         HashMap<String, Integer> map = new HashMap<>();
-        File file = new File("sentiments.txt"); // Dosya aynı klasörde olmalı
+        File file = new File("sentiments.txt");
 
         try (Scanner input = new Scanner(file)) {
             while (input.hasNextLine()) {
