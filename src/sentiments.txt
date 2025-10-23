@@ -1,0 +1,6 @@
+awesome	4
+great	3
+good	2
+bad	-2
+terrible	-4
+no sense	-3
